@@ -8,8 +8,8 @@ a {
     color: white;
 }
 
-header {
     /* estilização do header */
+header {
     display: flex;
     width: 100vw;
     height: 150px;
@@ -22,13 +22,11 @@ header {
 }
 
 header > h1 {
-    /* estilização do título do header */
     font-size: 70px;
     font-family: 'PT Serif', serif;
 }
 
 .container-botoes-navegacao {
-    /* estilização botões do header */
     color: #51270f;
     background-color: white;
     border-color: #51270f;
@@ -38,10 +36,11 @@ header > h1 {
 }
 
 .container-botoes-navegacao:hover {
-    /* estilização botões do header */
     background-color: #51270f;
     color: white;
 }
+
+/* estilização do main */
 
 .imagem-logo {
     display: flex;
@@ -79,8 +78,8 @@ header > h1 {
     border-color: #51270f;
 }
 
-footer {
     /* estilização do footer */
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,12 +89,10 @@ footer {
 }
 
 footer > p {
-    /* estilização do texto do footer */
     font-size: 22px;
 }
 
 .container-navegacao-footer {
-    /* estilização dos botões de navegação do footer */
     display: flex;
     flex-direction: column;
     margin: 30px;
@@ -103,8 +100,41 @@ footer > p {
 }
 
 .container-icones-footer {
-    /* estilização dos ícones do footer */
     width: 50px;
     height: 50px;
     margin: 10px;
+}
+
+/* estilização para iphone 6/7/8 */
+
+@media only screen and (min-width: 375px) and (max-width: 600px){
+    
+    header {
+        width: 100vh;
+        height: 100%;
+    }
+
+
+    .container-botoes-navegacao {
+        display: grid;
+        width: 100%;
+    }
+
+    .imagem-logo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .botoes-main {
+        display: grid;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    footer {
+        width: 100vh;
+        height: 250px;
+    }
 }
