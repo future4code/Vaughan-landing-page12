@@ -51,4 +51,4 @@ Os botões todos funcionam e as páginas também.
 
 ## O que não funciona
 Nas páginas contém uma sobra na largura a qual não deu para encontrar a solução.
-Não tem responsividade para celulares, apenas a página inicial.
+Não tem responsividade para celulares, apenas parte da página inicial.
