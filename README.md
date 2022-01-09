@@ -3,6 +3,7 @@
 ## Link do Site
 https://dark-vase.surge.sh/
 
+## Descrição
 Landing page da empresa 4FOOD.
 
 O 4Food é uma rede de supermercados que buscou criar e facilitar um sistema de compras e entregas recorrentes por aplicativo. O site conta com as seções:
