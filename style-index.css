@@ -40,6 +40,10 @@ header > h1 {
     color: white;
 }
 
+body {
+    width: 100vw;
+}
+
 /* estilização do main */
 
 .imagem-logo {
