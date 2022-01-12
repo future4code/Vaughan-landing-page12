@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+    /* estilização do header */
+    header {
+        display: flex;
+        width: 100vw;
+        height: 150px;
+        border-bottom-style: solid;
+        border-bottom-width: 15px;
+        border-color: #51270f;
+        color: #51270f;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    header > h1 {
+        font-size: 50px;
+        font-family: 'PT Serif', serif;
+    }
+    
+    .container-botoes-navegacao {
+        color: #51270f;
+        background-color: white;
+        border-color: #51270f;
+        padding: 10px;
+        font-size: 18px;
+        margin: 5px;
+    }
+    
+    .container-botoes-navegacao:hover {
+        background-color: #51270f;
+        color: white;
+    }
+
+    /* estilização do footer */
+    footer {
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #51270f;
+        color: lightgray;
+        height: 100px;
+    }
+    
+    footer > p {
+        font-size: 15px;
+    }
+    
+    .container-navegacao-footer {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        font-size: 14px;
+    }
+    
+    .container-icones-footer {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+form {
+    /* Estilização formulario */
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    margin: 100px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 2em;
+    border-color: #51270f;
+    background-color:white;  
+    color: #51270f;
+    font-size: 30px;
+    display:inline-block
+   
+}
+
+button {color: #51270f;
+    background-color: white;
+    border-color: #51270f;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;}
+
+
+
+/* Estilização section */
+section  { display: inline-block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    border-color: #51270f;
+    background-color:white;  
+    color: #51270f;
+    text-align: center;
+}
+img {max-width:100px;
+    max-height: 100x;
+  }
+
+h3,p { color: #51270f;
+font-size: 30px
+}

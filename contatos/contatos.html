@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contatos.css"/>
+    <title>Fale conosco</title>
+</head>
+<body>
+    <header>
+        <h1>4FOOD</h1>
+        <div>
+            <a href="/index.html"><button class="container-botoes-navegacao">Página Inicial</button></a>
+            <a href="/produtos/produtos.html"><button class="container-botoes-navegacao">Produtos</button></a>
+            <a href="/promoções/promocoes.html"><button class="container-botoes-navegacao">Promoções</button></a>
+            <a href="/quem-somos/quem-somos.html"><button class="container-botoes-navegacao">Quem somos</button></a>
+            <a href="/contatos/contatos.html"><button class="container-botoes-navegacao">Contato</button></a>
+            <a href="/trabalhe-conosco/trabalhe-conosco.html"><button class="container-botoes-navegacao">Trabalhe
+                    Conosco</button></a>
+        </div>
+
+    </header>
+
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <h2>Envie a sua dúvida</h2>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" />
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <section>
+        <h3>Contato Telefônico</h3>
+        <img src="data:image/png;base64,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">
+        <p>0800 123 456</p>
+    </section> 
+
+    <p>Central de apoio ao cliente: 0800 123 654</p>
+
+    <footer>
+        <div>
+                       <a target="_blank" href="https://www.facebook.com/"><img class="container-icones-footer"
+                    src="/imgs/facebook.png" alt="ícone facebook"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img class="container-icones-footer"
+                    src="/imgs/instagram-icone.png" alt="ícone instagram"></a>
+            <a target="_blank" href="https://twitter.com/"><img class="container-icones-footer" src="/imgs/twitter.png"
+                    alt="ícone twitter"></a>
+        </div>
+
+        <p>Produzido por Gabriela Hermenegildo, Ronald Santiago & Soraia Rocha © 2022</p>
+
+        <div class="container-navegacao-footer">
+            <a href="/index.html">Página Inicial</a>
+            <a href="/produtos/produtos.html">Produtos</a>
+            <a href="/promoções/promocoes.html">Promoções</a>
+            <a href="/quem-somos/quem-somos.html">Quem somos</a>
+            <a href="/contato/contatos.html">Contato</a>
+            <a href="/trabalhe-conosco/trabalhe-conosco.html">Trabalhe conosco</a>
+        </div>
+
+
+    </footer>
+</body>
+</html>
